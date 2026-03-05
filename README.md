@@ -108,7 +108,7 @@ PARTICLE_COLOR = 0x00BFFF # 粒子颜色（天蓝色）
 
 ### 运行效果
 
-![粒子群引力模拟演示](assets/Work0.gif)
+![粒子群引力模拟演示](assets/Work0.GIF)
 
 ### 交互特性
 
