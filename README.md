@@ -3,7 +3,7 @@
 ## 效果演示
 
 ![粒子群引力模拟演示](https://github.com/lydia520520/cg-lab-exp1/blob/main/assets/Work0.GIF)
-(如长时间未加载出gif 可查看assets/Work0.GIF)
+(如长时间未加载出gif 可查看assets/Work0.gif)
 
 ## 项目简介
 
