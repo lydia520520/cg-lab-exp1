@@ -1,5 +1,10 @@
 # Work2: 3D 变换演示
 
+## 效果演示
+
+![3D变换演示](https://github.com/lydia520520/cg-lab/blob/main/assets/Work2.gif)
+(如长时间未加载出gif 可查看assets/Work2.gif)
+
 ## 项目简介
 
 这是一个使用 Taichi 实现的 3D 坐标变换演示程序，展示了计算机图形学中的模型变换、视图变换和透视投影变换的完整流程。
