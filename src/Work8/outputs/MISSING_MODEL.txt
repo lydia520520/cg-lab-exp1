@@ -1,0 +1,1 @@
+SMPL_NEUTRAL.pkl not found. Place the official file in work8/models/SMPL_NEUTRAL.pkl or set SMPL_MODEL_PATH, then run `python3 main.py` again.

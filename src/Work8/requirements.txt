@@ -1,0 +1,6 @@
+torch
+smplx>=0.1.28
+trimesh
+matplotlib
+numpy
+Pillow
