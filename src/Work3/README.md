@@ -1,11 +1,13 @@
+202311051007-许艺珈-人工智能
 # Bezier Curve 绘制程序
 
 基于 Taichi 框架实现的高性能 Bezier 曲线交互式绘制工具。
 
 
-## 效果演示
+## 效果演示(必做+选做)
 ![3D变换演示](https://github.com/lydia520520/cg-lab/blob/main/assets/Work3.gif)
-(如长时间未加载出gif 可查看assets/Work3.gif)
+![选做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work32.gif)
+(如长时间未加载出gif 可查看assets/Work3.gif和assets/Work32.gif)
 
 
 ## 功能特性
@@ -45,12 +47,38 @@
 pip install taichi numpy
 ```
 
-### 运行程序
+### 运行必做
 ```bash
-python main.py
+uv run python -m src.Work3.main
 ```
 
 ### 操作说明
 - **鼠标左键**：点击窗口添加控制点
 - **C 键**：清空所有控制点
 
+### 运行选做
+
+选做部分新增了独立入口 `main_extra.py`，包含两项扩展：
+
+- 反走样曲线绘制
+- Bezier / B 样条曲线模式切换
+
+在项目根目录运行：
+
+```bash
+uv run python -m src.Work3.main_extra
+```
+
+快速自测命令：
+
+```bash
+uv run python -m src.Work3.main_extra --headless --max-frames 10
+```
+
+### 选做操作说明
+
+- **鼠标左键**：添加控制点
+- **B 键**：在 Bezier 与三次 B 样条之间切换
+- **A 键**：切换反走样开关
+- **C 键**：清空控制点
+- **ESC 键**：退出

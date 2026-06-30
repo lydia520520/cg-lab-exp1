@@ -1,11 +1,13 @@
+202311051007-许艺珈-人工智能
 # Work4: Phong Shading Demo (Taichi Ray Tracing)
 
 这是一个基于 **Taichi Lang** 实现的光线追踪（Ray Tracing）演示项目，重点展示了 **Phong 光照模型** 在 3D 几何体（球体和圆锥）上的应用效果。
 
-## 效果演示
+## 效果演示(必做+选做)
 
 ![光线追踪演示](https://github.com/lydia520520/cg-lab/blob/main/assets/Work4.gif)
-(如长时间未加载出gif 可查看assets/Work4.gif)
+![选做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work42.gif)
+(如长时间未加载出gif 可查看assets/Work4.gif和assets/Work422.gif)
 
 ## 项目简介
 
@@ -28,14 +30,37 @@
 
 ## 如何运行
 
-请确保你已安装 `uv`，然后在项目根目录（`c:\code\CG-lab`）下执行：
+请确保你已安装 `uv`，然后在项目根目录执行：
 
-```powershell
-uv run src/Work4/main.py
+### 必做
+
+```bash
+uv run python -m src.Work4.main
+```
+
+### 选做
+
+选做部分新增了独立入口 `main_extra.py`，包含：
+
+- Blinn-Phong 镜面高光模型
+- 硬阴影（Hard Shadow）
+- 可视化窗口与实时参数调节
+
+运行命令：
+
+```bash
+uv run python -m src.Work4.main_extra
+```
+
+快速自测命令：
+
+```bash
+uv run python -m src.Work4.main_extra --headless --max-frames 10
 ```
 
 如果是首次运行，建议先同步依赖：
-```powershell
+
+```bash
 uv sync
 ```
 
@@ -53,3 +78,9 @@ uv sync
 2. **Kd (Diffuse)**: 调整物体的固有颜色亮度和质感。
 3. **Ks (Specular)**: 调整高光亮点强度。
 4. **N (Shininess)**: 调整高光的集中程度（值越大，高光点越小越尖锐）。
+
+选做入口的额外交互：
+
+1. **B 键**: 在 `Phong` 与 `Blinn-Phong` 之间切换。
+2. **H 键**: 开关硬阴影。
+3. **L 键**: 开关自动旋转光源。

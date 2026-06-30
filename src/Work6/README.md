@@ -1,4 +1,12 @@
+202311051007-许艺珈-人工智能
 # 计算机图形学 实验六：可微渲染
+
+## 效果演示（必做+选做）
+
+![必做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work61.png)
+![选做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work62.png)
+(如长时间未加载出png 可查看assets/Work61.png)
+(如长时间未加载出png 可查看assets/Work62.png)
 
 
 

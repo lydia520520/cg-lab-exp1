@@ -1,8 +1,12 @@
+202311051007-许艺珈-人工智能
 # 计算机图形学 实验五：光线追踪
 
-授课教师：张鸿文 | 助教：张怡冉 | 课程主页：https://zhanghongwen.cn/cg
+## 效果演示（必做+选做）
 
----
+![必做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work51.gif)
+![选做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work52.gif)
+(如长时间未加载出gif 可查看assets/Work51.gif)
+(如长时间未加载出gif 可查看assets/Work52.gif)
 
 ## 实验目标
 

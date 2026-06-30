@@ -1,4 +1,11 @@
+202311051007-许艺珈-人工智能
 # 计算机图形学 实验七：质点弹簧模型
+
+## 效果演示（必做+选做）
+
+![必做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work71.gif)
+![选做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work72.gif)
+(如长时间未加载出gif 可查看assets/Work71.gif和assets/Work72.gif)
 
 ## 保留文件
 

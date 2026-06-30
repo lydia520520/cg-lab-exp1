@@ -1,9 +1,11 @@
+202311051007-许艺珈-人工智能
 # Work2: 3D 变换演示
 
-## 效果演示
+## 效果演示(必做+选做)
 
 ![3D变换演示](https://github.com/lydia520520/cg-lab/blob/main/assets/Work2.gif)
-(如长时间未加载出gif 可查看assets/Work2.gif)
+![选做](https://github.com/lydia520520/cg-lab/blob/main/assets/Work22.gif)
+(如长时间未加载出gif 可查看assets/Work2.gif和assets/Work22.gif)
 
 ## 项目简介
 
@@ -38,12 +40,26 @@
 - Python 3.12+
 - Taichi 1.7.4+
 
-### 启动命令
+### 必做启动命令
 
 在项目根目录执行：
 
 ```bash
 uv run python -m src.Work2.main
+```
+
+### 选做启动命令
+
+选做部分新增了独立入口 `main_extra.py`，会弹出一个可视化窗口，展示 3D 立方体的透视投影，以及两个旋转姿态 `R0 -> Rt -> R1` 之间的插值动画：
+
+```bash
+uv run python -m src.Work2.main_extra
+```
+
+如果只想做快速验证，可以自动运行少量帧后退出：
+
+```bash
+uv run python -m src.Work2.main_extra --headless --max-frames 10
 ```
 
 ### 交互操作
@@ -56,13 +72,16 @@ uv run python -m src.Work2.main
 
 ```
 src/Work2/
-├── main.py      # 主程序，包含所有变换和渲染逻辑
-└── README.md    # 项目说明文档
+├── main.py         # 必做：三角形 MVP 变换
+├── main_extra.py   # 选做：3D 立方体旋转插值
+└── README.md       # 项目说明文档
 ```
 
 ## 运行效果
 
 程序运行后会显示一个 700x700 的窗口，包含一个彩色三角形。通过 A/D 键可以控制三角形绕 Z 轴旋转，观察 3D 变换的效果。
+
+选做窗口会显示三个立方体：左侧为起始姿态 `R0`，右侧为目标姿态 `R1`，中间为通过旋转插值实时变化的 `Rt`。
 
 ## 许可证
 

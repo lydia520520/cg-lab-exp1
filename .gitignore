@@ -1,23 +1,13 @@
-# Python缓存文件
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# 虚拟环境文件夹（重点）
-.venv/
-venv/
-env/
-
-# 构建和分发文件
-build/
-dist/
-*.egg-info/
-
-# IDE配置文件
-.vscode/
-.idea/
-
-# 系统文件
+imgui.ini
 .DS_Store
-Thumbs.db
+
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+outputs/
+*/outputs/
+**/outputs/
+
+src/Work8/SMPL_NEUTRAL.pkl
+src/Work8/smpl/
